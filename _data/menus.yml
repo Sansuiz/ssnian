@@ -7,11 +7,8 @@
 - title: 'Tags'
   url: 'tags'
 
-- title: 'Emacs'
-  url: 'emacs'
-
-- title: 'R'
-  url: 'R'    
-
 - default: menu_about
   url: 'about'
+
+- title: 'SANSUI'
+  url: 'https://sansuiz.github.io/'
