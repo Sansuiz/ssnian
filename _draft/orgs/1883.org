@@ -1,0 +1,23 @@
+#+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
+#+OPTIONS: author:t broken-links:nil c:nil creator:nil
+#+OPTIONS: d:(not "LOGBOOK") date:t e:t email:nil f:t inline:t num:t
+#+OPTIONS: p:nil pri:nil prop:nil stat:t tags:t tasks:t tex:t
+#+OPTIONS: timestamp:t title:t toc:t todo:t |:t
+#+TITLE: 1883
+#+DATE: <2020-07-28 Tue>
+#+AUTHOR:
+#+EMAIL: vyej@vx23
+#+LANGUAGE: en
+#+SELECT_TAGS: export
+#+EXCLUDE_TAGS: noexport
+#+CREATOR: Emacs 26.3 (Org mode 9.1.9)
+
+
+* 狄爾泰
+
+在1883年復活節，狄爾泰寫下人文科學導論的作者前言：“因爲我的任務引導我穿越知識的各種領域，各種的錯誤也將會得到原諒。我只希望這一工作在一定程度上完成統一本質的、歷史的和系統的見解的任務，這是法學家、政治家、神學家和歷史學家在他們個別學科中進行成功研究所需要的基礎。”
+
+
+* 涂爾干
+
+ “1882年，24歲的愛彌兒·涂爾干在巴黎師範學院通過了資格考試，於當年11月正式任教於巴黎東南七十公里的桑斯中學。按照當時法國的教育制度，通過資格考試的年輕教師須在中學任教，同時上交兩篇論文（一篇拉丁文、一篇法文），方可獲得競爭大學教職的資格。在桑斯中學，涂爾干開設的這門哲學課程面對的是畢業班的學生，課程的目的是讓他們瞭解哲學的基本問題、構成哲學經典的各哲學家，當然，還包括法國自身的哲學體系。……”
