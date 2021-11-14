@@ -55,7 +55,7 @@ layout: default
         <span>
           {{ site.data.lang[site.language].post_next }}
         </span>
-        <a href="{{ page.next.url }}{{ site.baseurl }}">
+        <a href="{{ site.baseurl }}{{ page.next.url }}">
           {{ page.next.title }}
         </a>
       </div>
@@ -65,7 +65,7 @@ layout: default
         <span>
           {{ site.data.lang[site.language].post_previous }}
         </span>
-        <a href="{{ page.previous.url }}{{ site.baseurl }}">
+        <a href="{{ site.baseurl }}{{ page.previous.url }}">
           {{ page.previous.title }}
         </a>
       </div>
