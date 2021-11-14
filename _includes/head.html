@@ -2,6 +2,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 {% seo %}
+{% include fonts.html %}
 {% if site.keywords or page.tags %}
 <meta
   name="keywords"
@@ -26,9 +27,7 @@
 <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
-{% if site.analytics %}
-  {% include analytics.html %}
-{% endif %}
+
 {% if site.mathjax %}
 <script
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"
@@ -43,3 +42,4 @@
   async>
 </script>
 {% endif %}
+

@@ -1,0 +1,47 @@
+---
+title: "lelogicielR 學習筆記"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# 第1章 R軟件概況
+
+第1章其實沒有什麼內容了。就是簡單的介紹，還不如看官網。
+
+[R](https://www.r-project.org/)
+
+然後就是一些示例：
+
+```{r }
+weight <- c(70, 75, 74)
+height <- c(182, 190, 184)
+mat <- cbind(weight, height)
+name <- c("Peter","Ben","John")
+data <- data.frame(Names=name,height,weight)
+colMeans(mat)
+summary(data)
+
+plot(cars)
+abline(lm(dist~speed,data=cars),col="blue")
+```
+
+# 第2章 若干數據集和研究問題
+
+這本來不是應該寫前言裏面就可以了麼！！
+
+# 第3章 幾本概念與數據結構
+
+## R基礎
+
+- 工作策略：保存文件在特點文件夾，`source("myscript.R")`
+
+- 使用在線幫助，`help()`
+
+## 數據的性質
+
+
+
+

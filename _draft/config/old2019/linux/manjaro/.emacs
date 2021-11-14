@@ -1,4 +1,4 @@
-;;hy's emacs @manjaro 中文測試！！測試
+;;hy's emacs @manjaro 算是成功！@#2021-10-01 22:33:42
 
 (require 'package)
 (add-to-list 'package-archives
@@ -51,11 +51,10 @@
 (prefer-coding-system 'utf-8)
 
 ;;auctex
-(load "auctex.el" nil t t)
-
-(setq TeX-auto-save t)
-(setq TeX-parse-self t)
-(setq-default TeX-master nil)
+;(load "auctex.el" nil t t)
+;(setq TeX-auto-save t)
+;(setq TeX-parse-self t)
+;(setq-default TeX-master nil)
 
 ;;ess R
 (require 'ess-site)
@@ -70,14 +69,15 @@
 ;;fonts
 (set-language-environment 'UTF-8)
 (set-locale-environment "UTF-8")
-(set-default-font "Inconsolata 16")
+(add-to-list 'default-frame-alist
+          '(font . "Inconsolata-16"))
 (if (and (fboundp 'daemonp) (daemonp))
 	  (add-hook 'after-make-frame-functions
 				(lambda (frame)
 				  (with-selected-frame frame
 					(set-fontset-font "fontset-default"
 									  'unicode "Source Han Serif CN ExtraLight 16"))))
-(set-fontset-font "fontset-default" 'unicode "Source Han Serif CN ExtraLight 16"))
+(set-fontset-font "fontset-default" 'unicode "Source Han Serif CN Light 16"))
 
 
 ;;
@@ -99,3 +99,10 @@
 (setq jedi:complete-on-dot t)       
 
 
+;; insert-datetime
+(defun insert-datetime ()
+  "Insert date at point."
+    (interactive)
+    (insert (format-time-string "%Y-%m-%d %H:%M:%S")))
+
+(global-set-key (kbd "C-x C-t")  'insert-datetime)

@@ -2,13 +2,13 @@
 #
 # This is the configuration file for your blog, please change these items after forked.
 
-title: 書桌 | 素材 | 星辰的漫遊變成了時間
+title: 歲月 | 良辰 | 人烟 恍惚即成了過往
 email: 
-name: Xunyi
+name: vyej
 description: >- # this means to ignore newlines until "baseurl:"
-      -->->    ♩  ♪  ♫  ♬
-baseurl: '/reader' # the subpath of your site, e.g. /`blog
-url: 'https://sansuiz.github.io' # the base hostname & protocol for your site, e.g. http://example.com
+      -->-> （〃｀ 3′〃）
+baseurl: '/ssnian' # the subpath of your site, e.g. /`blog
+url: 'https://buyivi.xyz' # the base hostname & protocol for your site, e.g. http://example.com
 #domain: 'github.com' # the domain name for your site, e.g. example.com
 language: en
 # Supported languages list:

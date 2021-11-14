@@ -1,0 +1,62 @@
+#+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
+#+OPTIONS: author:t broken-links:nil c:nil creator:nil
+#+OPTIONS: d:(not "LOGBOOK") date:t e:t email:nil f:t inline:t num:t
+#+OPTIONS: p:nil pri:nil prop:nil stat:t tags:t tasks:t tex:t
+#+OPTIONS: timestamp:t title:t toc:t todo:t |:t
+#+TITLE: ne font plus qu'Un
+#+DATE: <2021-04-27 Mon>
+#+AUTHOR:
+#+LANGUAGE: en
+#+SELECT_TAGS: export
+#+EXCLUDE_TAGS: noexport
+#+CREATOR: Emacs 26.3 (Org mode 9.1.9)
+#+OPTIONS: html-link-use-abs-url:nil html-postamble:auto
+#+OPTIONS: html-preamble:t html-scripts:t html-style:t
+#+OPTIONS: html5-fancy:nil tex:t
+#+HTML_DOCTYPE: xhtml-strict
+#+HTML_CONTAINER: div
+#+DESCRIPTION:
+#+KEYWORDS:
+#+HTML_LINK_HOME:
+#+HTML_LINK_UP:
+#+HTML_MATHJAX:
+#+HTML_HEAD:
+#+HTML_HEAD_EXTRA:
+#+SUBTITLE:
+#+INFOJS_OPT:
+#+CREATOR: <a href="https://www.gnu.org/software/emacs/">Emacs</a> 26.3 (<a href="https://orgmode.org">Org</a> mode 9.1.9)
+#+LATEX_HEADER:
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+
+# 一個測試
+使用rstudio下的rmarkdown生成網頁。貌似可行。所以就可以玩耍咯。然后这个算是一个目录么。test的网页就可以不放了吧，图片太大了。可能以后这也还是個問題。
+
+補充一點的說明：操作模式？
+
+其實就是rsdtudio寫的rmarkdown，然後生成的html。手工粘貼post。沒有一鍵發布……
+
+
+* R筆記
+
+** Le logiciel R（R軟件教程與統計分析：入門到精通）
+
+   法國人寫的R教程。[[https://vyej.github.io/nfpqu/lelogicielR.html][Le logiciel R]]
+   
+** littlebook系列：R與計量
+
+* python筆記
+  
+** python crash course
+
+ 本來應該是叫什麼24小時教程的，不過好像翻譯成了python入門到實踐。[[https://vyej.github.io/nfpqu/pythoncrashcourse.html][crashcourse]]
+
+* 统计笔记
+
+  
+
+* 项目
+
+
+  
+
